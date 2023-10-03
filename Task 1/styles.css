@@ -6,3 +6,7 @@
   font-family: "Poppins", sans-serif;
   color: #ffffff;
 }
+body {
+  padding: 5px;
+  margin: 0px 300px;
+}
