@@ -80,3 +80,110 @@ main {
   top: -250px;
   left: 70px;
 }
+.info {
+  /* margin-left: 150px; */
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  /* width: 100%; */
+}
+
+#onEarImg {
+  position: relative;
+  left: 100px;
+  height: 75px;
+}
+
+h1 {
+  font-size: 45px;
+  margin: 10px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+#description {
+  width: 600px;
+  margin: 10px;
+  font-weight: 200;
+  font-size: 11px;
+  line-height: 30px;
+}
+
+#quickView {
+  margin-left: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #1e1e21;
+  border-radius: 8px;
+}
+
+#quickView span,
+#quickView p,
+#quickView img {
+  background: transparent;
+}
+
+#companyLogos {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-around;
+}
+
+#specs {
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#all-specs {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+#left-specs {
+  display: flex;
+  flex-direction: column;
+}
+
+#left-specs img {
+  scale: 0.8;
+}
+
+#left-specs div {
+  margin-bottom: 20px;
+}
+
+#left-specs div img {
+  scale: 0.8;
+}
+
+#left-specs div p {
+  font-size: 12px;
+}
+
+#left-specs div p:last-child {
+  color: #bdc0c2;
+  font-size: 10px;
+  margin-top: 5px;
+  width: 70%;
+}
+
+#left-specs div:first-child,
+#left-specs div:last-child {
+  margin-left: 30px;
+}
+
+#right-specs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 50px;
+}
