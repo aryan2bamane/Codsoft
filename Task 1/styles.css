@@ -58,3 +58,25 @@ nav ul li a {
   border-radius: 10px;
   padding: 10px 40px;
 }
+main {
+  /* margin: 10px 0px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: row;
+}
+
+#right-info {
+  margin: 0px 150px;
+}
+
+#mainImg {
+  width: 230px;
+  position: relative;
+  top: -250px;
+  left: 70px;
+}
