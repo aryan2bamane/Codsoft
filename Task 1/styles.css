@@ -238,3 +238,57 @@ h4 {
   font-size: 12px;
   padding: 10px 20px;
 }
+
+#buyNow {
+  background: #181a1b;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+  padding: 40px 0;
+}
+
+#buyNow div,
+#buyNow p,
+#buyNow h3,
+#buyNow img {
+  background-color: transparent;
+}
+
+#buyNow div {
+  width: 25%;
+}
+
+#buyNow div h3 {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+#buyNow div p {
+  color: #bdc0c2;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+#buyNow div div {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  background: #000000;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+#buyNow div div img {
+  scale: 0.8;
+  margin-right: 10px;
+}
+
+#buyNow div div p {
+  margin-bottom: 0;
+  font-size: 12px;
+  color: white;
+}
