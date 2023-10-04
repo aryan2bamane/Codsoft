@@ -10,3 +10,51 @@ body {
   padding: 5px;
   margin: 0px 300px;
 }
+
+nav {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+#beatsLogo {
+  width: 25px;
+  height: 25px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+#navItems {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 40px;
+}
+
+nav ul li a {
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+}
+
+#shopBtn {
+  background: #1e1e21;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
